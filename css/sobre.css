@@ -1,27 +1,47 @@
-body{
-    font-family: "Helvetica", "Lucida Grande", sans-serif;
-    color:#3D3D3D;
+body {
     width: 940px;
     margin-left: auto;
     margin-right: auto;
-}
-h1{
-    background-color: #E1EDF2;
+ 
+    font-family: "Helvetica", "Lucida Grande", sans-serif;
+    color: #3D3D3D;
+  }
+ 
+  h1 {
     padding: 10px;
-}
-
-h2{
+ 
+    background-color: #E1EDF2;
+  }
+ 
+  h2 {
     border-bottom: 2px solid black;
-}
-
-figure{
+  }
+ 
+  figure {
     margin: 30px;
     padding: 15px;
+ 
     text-align: center;
+ 
     background-color: whitesmoke;
-    border: 1px solid lightgray;
+    border: 1px solid lightgrey;
+  }
+ 
+  figcaption {
+    margin-top: 10px;
+  }
+
+.matriz-musicdot {
+  width: 550px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-figcaption{
-    margin-top: 10px;
+.familia-tupfeln {
+  width: 275px;
+  float: right;
+}
+
+figure img {
+  width: 100%;
 }
